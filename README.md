@@ -247,54 +247,9 @@ Frontend Application:
 http://localhost:5173
 ```
 
----
 
-## API Reference
+ 
 
-### POST /predict
-
-Request:
-
-```json
-{
-  "url": "https://www.example.com/article"
-}
-```
-
-Response:
-
-```json
-{
-  "label": "FAKE",
-  "confidence": 91.98,
-  "fake_probability": 91.98,
-  "real_probability": 8.02,
-  "title": "Article headline",
-  "text_preview": "First 300 characters...",
-  "attention_weights": [
-    {
-      "word": "breaking",
-      "score": 0.92
-    }
-  ],
-  "gradcam_image": "data:image/png;base64,..."
-}
-```
-
----
-
-### GET /health
-
-Response:
-
-```json
-{
-  "status": "ok",
-  "device": "cpu"
-}
-```
-
----
 
 
 

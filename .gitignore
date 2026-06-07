@@ -1,0 +1,32 @@
+# model weights — too large for GitHub
+backend/models/*.pt
+
+# dataset — too large for GitHub
+ml/data/
+
+# environment
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# node
+node_modules/
+frontend/dist/
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# logs
+*.log
